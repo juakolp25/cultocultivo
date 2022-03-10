@@ -16,7 +16,7 @@ $message .= "Mensaje: " . $_POST['coment'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
 $para = 'juaquingonzalez012@gmail.com';
-$asunto = 'Culto cultivo';
+$asunto = 'Asunto del mensaje';
 
 mail($para, $asunto, utf8_decode($message), $header);
 echo "<script>alert('Correo enviado correctamente')</script>";
