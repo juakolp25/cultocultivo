@@ -3,7 +3,7 @@ if($_POST){
 $name = $_POST['name'];
 $mail = $_POST['email'];
 $phone = $_POST['number'];
-$message = $_POST['coments'];
+$message = $_POST['coment'];
 
 $header = 'From: ' . $mail . "\r\n";
 $header .= 'X-Mailer: PHP/' . phpversion() . "\r\n";
