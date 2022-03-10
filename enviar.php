@@ -19,6 +19,6 @@ $para = 'juaquingonzalez012@gmail.com';
 $asunto = 'Culto cultivo';
 
 mail($para, $asunto, utf8_decode($message), $header);
-echo "<script>alert('Correo enviado correctamente')</script>"
+echo "<script>alert('Correo enviado correctamente')</script>";
 echo "<script> setTimeout(\"location.href='index.html'\",1000)</script>";
 ?>
