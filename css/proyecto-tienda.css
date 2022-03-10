@@ -300,6 +300,7 @@ input, button, textarea {
     min-height: 120px;
     width: 100%;
     resize: vertical;
+	background-color: #fff;
 }
   
 .submit-button{
