@@ -1,4 +1,5 @@
 <?php
+if($_POST){
 $name = $_POST['name'];
 $mail = $_POST['email'];
 $phone = $_POST['number'];
@@ -21,4 +22,5 @@ $asunto = 'Asunto del mensaje';
 mail($para, $asunto, utf8_decode($message), $header);
 echo "<script>alert('Correo enviado correctamente')</script>";
 echo "<script> setTimeout(\"location.href='index.html'\",1000)</script>";
+}
 ?>
